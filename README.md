@@ -19,6 +19,23 @@ docker compose up -d --build
 
 ---
 
+Base de datos
+
+SAMAES FOOD utiliza PostgreSQL como sistema de gestión de base de datos y puede ejecutarse mediante Docker.
+
+Por motivos de seguridad, el archivo de semilla utilizado durante el desarrollo (neon_seed.sql) no se incluye en este repositorio, ya que contiene datos de configuración y credenciales de prueba que no deben exponerse públicamente.
+
+Para ejecutar el proyecto:
+
+Configura las variables de entorno utilizando .env.example como referencia.
+Crea una base de datos PostgreSQL.
+Ejecuta las migraciones/configuración de la aplicación.
+Si deseas utilizar datos iniciales, puedes crear tus propios registros de prueba.
+
+
+---
+
+
  Stack Tecnológico
 
  **Frontend:** React 19, Vite, Lucide Icons, Canvas Confetti, CSS personalizado temático.
