@@ -1,0 +1,32 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Java / Maven Backend
+restaurante-api/target/
+*.class
+*.jar
+
+# Database / Backups
+*.sql
+*.dump
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+backups/
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+scratch/
